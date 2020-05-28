@@ -64,7 +64,7 @@ $arr = GormanJsonDecoder::encode([
     let arr = <?php echo $arr->toJsCode(); ?>;
     console.log(arr.e("hello"));
     // will output:
-    // I was called with arg
+    // I was called with arg: hello
     // 456
 
 

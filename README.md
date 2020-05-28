@@ -79,7 +79,7 @@ $arr = GormanJsonDecoder::encode([
     let arr = <?php echo $arr->toJsCode(); ?>;
     console.log(arr.e("hello"));
     // will output:
-    // I was called with arg
+    // I was called with arg: hello
     // 456
 
 
@@ -99,6 +99,10 @@ See more in the [conception notes](https://github.com/lingtalfi/GormanJsonDecode
 History Log
 =============
 
+- 1.0.1 -- 2020-05-28
+
+    - fix typo in code and in README.md
+    
 - 1.0.0 -- 2020-05-28
 
     - initial commit

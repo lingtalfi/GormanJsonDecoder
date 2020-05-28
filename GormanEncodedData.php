@@ -87,8 +87,6 @@ class GormanEncodedData
                 _gorman_encoded_data_[key] = callback();
             }
         }
-    
-    }
 EEE;
         $s .= PHP_EOL;
 
