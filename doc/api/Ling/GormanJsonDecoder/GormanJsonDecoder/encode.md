@@ -7,7 +7,7 @@ GormanJsonDecoder::encode
 
 
 
-GormanJsonDecoder::encode — Returns a prepared GormanEncodedData instance.
+GormanJsonDecoder::encode — Returns a gorman array.
 
 
 
@@ -16,12 +16,13 @@ Description
 ================
 
 
-public static [GormanJsonDecoder::encode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder/encode.md)(array $arr, ?array $callbackKeys = []) : [GormanEncodedData](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanEncodedData.md)
+public static [GormanJsonDecoder::encode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder/encode.md)(array $arr, ?array $callbackKeys = []) : array
 
 
 
 
-Returns a prepared GormanEncodedData instance.
+Returns a gorman array.
+See the [GormanJsonDecoder conception notes](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/pages/conception-notes.md) for more details.
 
 
 
@@ -42,7 +43,7 @@ Parameters
 Return values
 ================
 
-Returns [GormanEncodedData](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanEncodedData.md).
+Returns array.
 
 
 
@@ -53,7 +54,7 @@ Returns [GormanEncodedData](https://github.com/lingtalfi/GormanJsonDecoder/blob/
 
 Source Code
 ===========
-See the source code for method [GormanJsonDecoder::encode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/GormanJsonDecoder.php#L21-L27)
+See the source code for method [GormanJsonDecoder::encode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/GormanJsonDecoder.php#L38-L44)
 
 
 See Also
@@ -61,5 +62,5 @@ See Also
 
 The [GormanJsonDecoder](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder.md) class.
 
-
+Previous method: [encodeAsGormanData](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder/encodeAsGormanData.md)<br>Next method: [decode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder/decode.md)<br>
 

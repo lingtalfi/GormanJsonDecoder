@@ -33,8 +33,8 @@ Summary
 Usage
 =========
 
-```php 
 
+```php 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,7 +47,6 @@ Usage
 
 
 <?php
-
 
 
 require_once "init.inc.php"; // just the autoloader for the GormanJsonDecoder
@@ -70,25 +69,23 @@ $arr = GormanJsonDecoder::encode([
     'f' => null,
 ], ['e']);
 
-
 ?>
 
 
 <script>
 
-    let arr = <?php echo $arr->toJsCode(); ?>;
+    let arr = <?php echo GormanJsonDecoder::decode($arr); ?>;
     console.log(arr.e("hello"));
     // will output:
-    // I was called with arg: hello
+    // I was called with arg
     // 456
 
 
 </script>
 </body>
 </html>
- 
-
 ```
+
 
 See more in the [conception notes](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/pages/conception-notes.md).
 
@@ -99,6 +96,10 @@ See more in the [conception notes](https://github.com/lingtalfi/GormanJsonDecode
 History Log
 =============
 
+- 1.1.0 -- 2020-05-28
+
+    - changed workflow
+    
 - 1.0.1 -- 2020-05-28
 
     - fix typo in code and in README.md

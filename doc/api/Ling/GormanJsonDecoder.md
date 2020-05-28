@@ -15,7 +15,9 @@ Table of contents
     - [GormanEncodedData::toPhpArray](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanEncodedData/toPhpArray.md) &ndash; Returns the php array corresponding to this instance.
     - [GormanEncodedData::toJsCode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanEncodedData/toJsCode.md) &ndash; Returns the js code representing this instance.
 - [GormanJsonDecoder](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder.md) &ndash; The GormanJsonDecoder class.
-    - [GormanJsonDecoder::encode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder/encode.md) &ndash; Returns a prepared GormanEncodedData instance.
+    - [GormanJsonDecoder::encodeAsGormanData](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder/encodeAsGormanData.md) &ndash; Returns a prepared GormanEncodedData instance.
+    - [GormanJsonDecoder::encode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder/encode.md) &ndash; Returns a gorman array.
+    - [GormanJsonDecoder::decode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder/decode.md) &ndash; Returns the js code representing the given array.
 
 
 

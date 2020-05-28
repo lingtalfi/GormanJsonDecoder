@@ -47,7 +47,7 @@ Returns string.
 
 Source Code
 ===========
-See the source code for method [GormanEncodedData::toJsCode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/GormanEncodedData.php#L77-L96)
+See the source code for method [GormanEncodedData::toJsCode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/GormanEncodedData.php#L77-L95)
 
 
 See Also

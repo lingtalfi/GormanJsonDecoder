@@ -25,7 +25,9 @@ Class synopsis
 class <span class="pl-k">GormanJsonDecoder</span>  {
 
 - Methods
-    - public static [encode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder/encode.md)(array $arr, ?array $callbackKeys = []) : [GormanEncodedData](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanEncodedData.md)
+    - public static [encodeAsGormanData](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder/encodeAsGormanData.md)(array $arr, ?array $callbackKeys = []) : [GormanEncodedData](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanEncodedData.md)
+    - public static [encode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder/encode.md)(array $arr, ?array $callbackKeys = []) : array
+    - public static [decode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder/decode.md)(array $array) : string
 
 }
 
@@ -37,7 +39,9 @@ class <span class="pl-k">GormanJsonDecoder</span>  {
 Methods
 ==============
 
-- [GormanJsonDecoder::encode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder/encode.md) &ndash; Returns a prepared GormanEncodedData instance.
+- [GormanJsonDecoder::encodeAsGormanData](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder/encodeAsGormanData.md) &ndash; Returns a prepared GormanEncodedData instance.
+- [GormanJsonDecoder::encode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder/encode.md) &ndash; Returns a gorman array.
+- [GormanJsonDecoder::decode](https://github.com/lingtalfi/GormanJsonDecoder/blob/master/doc/api/Ling/GormanJsonDecoder/GormanJsonDecoder/decode.md) &ndash; Returns the js code representing the given array.
 
 
 
