@@ -96,6 +96,10 @@ See more in the [conception notes](https://github.com/lingtalfi/GormanJsonDecode
 History Log
 =============
 
+- 1.1.2 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 1.1.1 -- 2020-10-02
 
     - fix misleading example in the documentation
